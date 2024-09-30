@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+     .ul{
+        list-style-type: none;
+        margin-left: 5%;
+    }
+    li a
+    {
+        text-decoration: none;
+        font-size: large;
+        color: black;
+    }
+    .list{
+        display: inline-block;
+        font-size: 40px;
+        padding-right: 5px;
+    }
+   h1
+    {
+        font-size: 30px;
+        font-family: 'lucida sans';
+    }
+    nav{
+        background-color: peru;
+        position: sticky;
+        top: 0;
+        display: flex;
+    }
+    h1,.ul
+    {
+        display: inline-block;
+    }
+    .list-item{
+        display: inline-block;
+        margin-top: 50px;
+        justify-content: center;
+    }
+    button{
+        color: aliceblue;
+        border-radius: 5px;
+        border-style: none;
+        background-color: chocolate;
+    }
+    h5{
+        align-items: center;
+        font-size: xx-large;
+        justify-content: center;
+        position: relative;
+        left: 110%;
+    }
+    p{
+        margin-left: 180px;
+        font-size: 20px;
+    }
+    .flex-container{
+        display: flex;
+        align-items: stretch;
+        background-color: chocolate;
+    }
+    .flex-container>div
+    {
+        background-color: lemonchiffon;
+        color: black;
+        margin: 10px;
+        text-align: center;
+        line-height: 15px;
+        font-size: 30px;
+    }
+    button:hover{
+        background-color: purple;
+    }
+    nav{
+        animation-name: sample;    
+        animation-duration: 3s;
+        animation-delay: 2s;
+        font-family: 1 'Courier New', Courier, monospace;
+        animation-iteration-count: 10;
+    }
+    @keyframes sample
+    {
+        0%{background-color: gainsboro;}
+        50%{background-color: tan;}
+        100%{background-color: darkgray;}
+    }
+    footer{
+        background-color:lightslategray;
+        text-align: center;
+        height: 500px;
+        width: 100%;
+        /*margin-right: 500px;*/
+       /* font-size: 20px;*/}
+.footer-content{
+        display: inline-block;
+        list-style-type: none;
+        text-align: justify;
+        margin-right: 100px;
+        margin-bottom: 20px;
+    }
+    #f1{
+        font-style: italic;
+        background-color: lightgrey;
+    }
+    .f2{
+        text-indent: 30px;
+        word-spacing: 3px;
+        letter-spacing: 1px;
+        line-height: 15px;
+    }    
+</style>
+<body>
+
+    <nav>
+        <h1>Bakery Shop</h1>      
+<div class="search-box">
+    <input type="text" value="Search Your Favorite Items" style="height:20px; width:250px; margin-top: 10px; margin-left: 100px;">
+    <span class="search-icon"><i class="html/search bar.png"></i></span>
+    </div>
+        <ul class="ul">
+            <li class="list"><img src="html/home (1).png" alt="" width="30px" height="30px"><a href="./index.html">Home</a></li>
+            <li class="list"><img src="html/menu.png" alt="" width="25px" height="25px"><a href="">Menu</a></li>
+            <li class="list"><img src="html/cake.png" alt="" width="25px" height="25px"><a href="">Premium Cakes</a></li>
+            <li class="list"><img src="html/icons8-online-order-68.png" alt="" width="25px" height="25px"><a href="">Online Ordering</a></li>
+            <li class="list"><img src="html/icons8-gift-box-50.png" alt="" width="25px" height="25px"><a href="">Gift Box</a></li>
+        </ul>
+    </nav> 
+
+    <div class="list-item">
+        <center>
+        <h5>CAKES</h5></center>
+        <div><br><br>
+        <img src="html/slice-cheesecake-with-strawberry-top_759095-7344 (1).jpg" style="margin-left: 50px;" alt="" height="350px" width="350px"></div>
+            <h1 style="font-size: 25px; margin-left: 180px;">Chees Cake</h1>
+            <h2 style="font-size: 25px; margin-left: 180px;">$250.00</h2>
+            <p>Rating :<img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-half-empty-50.png" alt="" height="20px" width="20px">
+        </p>
+            <div><button style="margin-left: 180px; font-size: 25px;">Buy Now</button></div>
+        </div>            
+    </div>
+
+    <div class="list-item">
+        <div>
+            <div><img src="html/carrot cake menu item2.jpg" style="margin-left: 50px;" alt="" height="350px" width="350px"></div>
+            <h1 style="font-size: 25px; margin-left: 180px;">Carrot Cake</h1>
+            <h2 style="font-size: 25px; margin-left: 180px;">$145.50</h2>
+            <p>Rating :<img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-half-empty-50.png" alt="" height="20px" width="20px">
+        </p>
+            <div><button style="font-size: 25px; margin-left: 180px;">Buy Now</button></div> 
+        </div>
+    </div>
+
+    <div class="list-item">
+        <div>
+            <div><img src="html/cherrycake menu item.avif" style="margin-left: 50px;" alt="" height="350px" width="350px"></div>
+            <h1 style="font-size: 25px; margin-left: 180px;">Cherry Cake</h1>
+            <h2 style="font-size: 25px; margin-left: 180px;">$255.75</h2>
+            <p>Rating :<img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-half-empty-50.png" alt="" height="20px" width="20px">
+        </p>
+            <div><button style="margin-left: 180px; font-size: 25px;">Buy Now</button></div>
+        </div>
+    </div>
+
+    <div class="list-item">
+        <div>
+            <div><img src="html/chocolatecake menu item.jpg" style="margin-left: 50px;" alt="" height="350px" width="350px"></div>
+            <h1 style="font-size: 25px; margin-left: 180px;">Chocolate Cake</h1>
+            <h2 style="font-size: 25px; margin-left: 180px;">$190.75</h2>
+            <p>Rating :<img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-half-empty-50.png" alt="" height="20px" width="20px">
+        </p>
+            <div><button style="font-size: 25px; margin-left: 180px;">Buy Now</button></div>
+        </div>
+    </div>
+
+    <div class="list-item">
+        <div>
+            <div><img src="html/applecake menu item.jpg" style="margin-left: 50px;" alt="" height="350px" width="350px"></div>
+            <h1 style="font-size: 25px; margin-left: 180px;">Apple Cake</h1>
+            <h2 style="font-size: 25px; margin-left: 180px;">$250.95</h2>
+            <p>Rating :<img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-half-empty-50.png" alt="" height="20px" width="20px">
+        </p>
+            <div><button style="font-size: 25px; margin-left: 180px;">Buy Now</button></div>
+        </div>
+    </div>
+
+    <div class="list-item">
+        <div>
+            <div><img src="html/walnutcake menu item.avif" style="margin-left: 50px;" alt="" height="350px" width="350px"></div>
+            <h1 style="font-size: 25px; margin-left: 180px;">Walnut Cake</h1>
+            <h2 style="font-size: 25px; margin-left: 180px;">$155.73</h2>
+            <p>Rating :<img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-half-empty-50.png" alt="" height="20px" width="20px">
+        </p>
+            <div><button style="font-size: 25px; margin-left: 180px;">Buy Now</button></div>
+        </div> 
+    </div>
+
+    <div class="list-item">
+        <div>
+            <div><img src="html/espresso cake menu item.jpg" style="margin-left: 50px;" alt="" height="350px" width="350px"></div>
+            <h1 style="font-size: 25px; margin-left: 180px;">Espresso Cake</h1>
+            <h2 style="font-size: 25px; margin-left: 180px;">$195.95</h2>
+            <p>Rating :<img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-half-empty-50.png" alt="" height="20px" width="20px">
+        </p>
+            <div><button style="font-size: 25px; margin-left: 180px;">Buy Now</button></div>
+        </div>
+    </div>
+
+    <div class="list-item">
+        <div>
+            <div><img src="html/chocolate jelly doughtnut kmenu item.avif" style="margin-left: 50px;" height="350px" width="350px"></div>
+            <h1 style="font-size: 25px; margin-left: 180px;">Jelly Doughnut Cake</h1>
+            <h2 style="font-size: 25px; margin-left: 180px;">$199.99</h2>
+            <p>Rating :<img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-half-empty-50.png" alt="" height="20px" width="20px">
+        </p>
+            <div><button style="font-size: 25px; margin-left: 180px;">Buy Now</button></div>
+        </div> 
+    </div>
+
+    <div class="list-item">
+        <div>
+            <div><img src="html/chef-eddys-signature-red-velvet-cake-dixie (1).jpg" style="margin-left: 50px;" alt="" height="350px" width="350px"></div>
+            <h1 style="font-size: 25px; margin-left: 180px;">Red Velvet</h1>
+            <h2 style="font-size: 25px; margin-left: 180px;">$399.99</h2>
+            <p>Rating :<img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-half-empty-50.png" alt="" height="20px" width="20px">
+        </p>
+            <div><button style="margin-left: 180px; font-size: 25px;">Buy Now</button></div>
+        </div>
+    </div>
+    <div class="list-item">
+        <h5>ICE CREAM</h5>
+        <div><br>
+            <div><img src="html/venila ice cream.jpg" style="margin-left: 50px;" alt="" height="350px" width="350px"></div>
+            <h1 style="font-size: 25px; margin-left: 180px;">Venila Ice cream</h1>
+            <h2 style="font-size: 25px; margin-left: 180px;">$259.99</h2>
+            <p>Rating :<img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-half-empty-50.png" alt="" height="20px" width="20px">
+        </p>
+            <div><button style="margin-left: 180px; font-size: 25px;">Buy Now</button></div>   
+        </div>
+    </div>
+    <div class="list-item">
+        <div>
+            <div><img src="html/rich choco ice cream img.jpg" style="margin-left: 50px;" alt="" height="350px" width="350px"></div>
+            <h1 style="font-size: 25px; margin-left: 180px;">Choco Ice Cream</h1>
+            <h2 style="font-size: 25px; margin-left: 180px;">$399.99</h2>
+            <p>Rating :<img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-half-empty-50.png" alt="" height="20px" width="20px">
+        </p>
+            <div><button style="margin-left: 180px; font-size: 25px;">Buy Now</button></div>   
+        </div>
+    </div>
+    <div class="list-item">
+        <div>
+            <div><img src="html/peanut butter ice cream img.jpg" style="margin-left: 50px;" alt="" height="350px" width="350px"></div>
+            <h1 style="font-size: 25px; margin-left: 180px;">Peanut Ice Cream</h1>
+            <h2 style="font-size: 25px; margin-left: 180px;">$499.99</h2>
+            <p>Rating :<img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-half-empty-50.png" alt="" height="20px" width="20px">
+        </p>
+            <div><button style="margin-left: 180px; font-size: 25px;">Buy Now</button></div>   
+        </div>
+    </div>
+    <div class="list-item">
+        <div>
+            <div><img src="html/cookie dough ice cream.jpg" style="margin-left: 50px;" alt="" height="350px" width="350px"></div>
+            <h1 style="font-size: 25px; margin-left: 180px;">Cookie Ice Cream</h1>
+            <h2 style="font-size: 25px; margin-left: 180px;">$459.99</h2> 
+            <p>Rating :<img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-half-empty-50.png" alt="" height="20px" width="20px">
+        </p>
+            <div><button style="margin-left: 180px; font-size: 25px;">Buy Now</button></div>   
+        </div>
+    </div>
+    <div class="list-item">
+        <div>
+            <div><img src="html/Cotton-Candy-Ice-Cream-low-res-20.webp" style="margin-left: 50px;" alt="" height="350px" width="350px"></div>
+            <h1 style="font-size: 25px; margin-left: 180px;">Candy Ice Cream</h1>
+            <h2 style="font-size: 25px; margin-left: 180px;">$699.99</h2> 
+            <p>Rating :<img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-half-empty-50.png" alt="" height="20px" width="20px">
+        </p>
+            <div><button style="margin-left: 180px; font-size: 25px;">Buy Now</button></div>   
+        </div>
+    </div>     
+    <div class="list-item">
+        <div>
+            <div><img src="html/honey treat ice cream img.jpg" style="margin-left: 50px;" alt="" height="350px" width="350px"></div>
+            <h1 style="font-size: 25px; margin-left: 180px;">Honey Ice Cream</h1>
+            <h2 style="font-size: 25px; margin-left: 180px;">$729.99</h2>  
+            <p>Rating :<img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-half-empty-50.png" alt="" height="20px" width="20px">
+        </p>
+            <div><button style="margin-left: 180px; font-size: 25px;">Buy Now</button></div>   
+        </div>
+    </div>    
+    <div class="list-item">
+        <h5>PIZZA</h5>
+        <div><br>
+            <div><img src="html/pan pizza.jpg" style="margin-left: 50px;" alt="" height="350px" width="350px"></div>
+            <h1 style="font-size: 25px; margin-left: 180px;">Pan Pizza</h1>
+            <h2 style="font-size: 25px; margin-left: 180px;">$999.99</h2>  
+            <p>Rating :<img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-half-empty-50.png" alt="" height="20px" width="20px">
+        </p>
+            <div><button style="margin-left: 180px; font-size: 25px;">Buy Now</button></div>   
+        </div>
+    </div>   
+    <div class="list-item">
+        <div>
+            <div><img src="html/beef pizza.jpg" style="margin-left: 50px;" alt="" height="350px" width="350px"></div>
+            <h1 style="font-size: 25px; margin-left: 180px;">Beef Pizza</h1>
+            <h2 style="font-size: 25px; margin-left: 180px;">$899.99</h2>  
+            <p>Rating :<img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-half-empty-50.png" alt="" height="20px" width="20px">
+        </p>
+            <div><button style="margin-left: 180px; font-size: 25px;">Buy Now</button></div>   
+        </div>
+    </div>   
+    <div class="list-item">
+        <div>
+            <div><img src="html/chile pizza.jpg" style="margin-left: 50px;" alt="" height="350px" width="350px"></div>
+            <h1 style="font-size: 25px; margin-left: 180px;">Chile Pizza</h1>
+            <h2 style="font-size: 25px; margin-left: 180px;">$999.99</h2>  
+            <p>Rating :<img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-half-empty-50.png" alt="" height="20px" width="20px">
+        </p>
+            <div><button style="margin-left: 180px; font-size: 25px;">Buy Now</button></div>   
+        </div> 
+    </div>  
+    <div class="list-item">
+        <div>
+            <div><img src="html/detroit pizza.jpg" style="margin-left: 50px;" alt="" height="350px" width="350px"></div>
+            <h1 style="font-size: 25px; margin-left: 180px;">Detroit Pizza</h1>
+            <h2 style="font-size: 25px; margin-left: 180px;">$1099.99</h2>  
+            <p>Rating :<img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-half-empty-50.png" alt="" height="20px" width="20px">
+        </p>
+            <div><button style="margin-left: 180px; font-size: 25px;">Buy Now</button></div>   
+        </div> 
+    </div>  
+    <div class="list-item">
+        <div>
+            <div><img src="html/chicken pizza.jpg" style="margin-left: 50px;" alt="" height="350px" width="350px"></div>
+            <h1 style="font-size: 25px; margin-left: 180px;">Chicken Pizza</h1>
+            <h2 style="font-size: 25px; margin-left: 180px;">$999.99</h2>  
+            <p>Rating :<img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-half-empty-50.png" alt="" height="20px" width="20px">
+        </p>
+            <div><button style="margin-left: 180px; font-size: 25px;">Buy Now</button></div>   
+        </div> 
+    </div>             
+    <div class="list-item">
+        <div>
+            <div><img src="html/chees pizza.jpg" style="margin-left: 50px;" alt="" height="350px" width="350px"></div>
+            <h1 style="font-size: 25px; margin-left: 180px;">Cheese Pizza</h1>
+            <h2 style="font-size: 25px; margin-left: 180px;">$799.99</h2>  
+            <p>Rating :<img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-50.png" alt="" height="20px" width="20px">
+            <img src="html/icons8-star-half-empty-50.png" alt="" height="20px" width="20px">
+        </p>
+            <div><button style="margin-left: 180px; font-size: 25px;">Buy Now</button></div>   
+        </div> 
+    </div>                        
+    <div id="gfg"></div><br><br>
+    <footer>
+        <div class="footer-content">  
+            <h1 style="font-size: 20px;">ENVANTO MARKET</h1>
+            <li>Terms</li> 
+            <li>Licenses</li>
+            <li >Become an affilicte</li>
+            <li>Cookies</li>
+            <li>Cookie Setting</li>
+        </div>
+        <div class="footer-content">       
+                <h1 style="font-size: 20px;">HELP</h1>
+                <li>Help Center</li> 
+                <li>Authors</li>
+        </div>
+        <div class="footer-content">
+            <h1 style="font-size: 20px;">OUR COMMUNITY</h1>
+            <li>Community</li> 
+            <li>Blog</li>
+            <li>Forums</li>
+            <li>Meetups</li>
+        </div>
+        <div class="footer-content">
+            <h1 style="font-size: 20px;">MEET ENVATO</h1>
+            <li>About Envato</li> 
+            <li>Careers</li>
+            <li>Privacy Policy</li>
+            <li>Do not sell or share my personal information</li>
+            <li>Sitemap</li>
+        </div>
+        <div>
+        <h1><img src="html/e letter.png" style="margin-left: 1000px;" height="30px" width="30px">envato market</h1>
+        <h2 style="font-size: 20px; margin-left: 950px;">items sold</h2>
+        <h3 style="font-size: 20px; margin-left: 950px;">75,984,654</h3>
+        <h4 style="font-size: 20px; margin-left: 950px;">community earings</h4>
+        <h5 style="font-size: 20px; margin-left: 950px;">$1,180,190,638</h5>
+        </div>
+        <div>
+            <div><img src="html/youtube img.png" height="40px" width="40px"><img src="html/twitter image.png" height="40px" width="40px"><img src="html/instagram.png" height="40px" width="40px"><img src="html/facebook img.png" height="40px" width="40px"></div>
+            <hr>
+            <div class="footer-content">   
+            <h1 style="font-size: 20px;">Envato.com</h1>
+            <h1 style="font-size: 20px;margin-left: 12px;">Envato Element</h1>
+            <h1 style="font-size: 20px;margin-left: 12px;">Placeit by Envato</h1>
+            <h1 style="font-size: 20px;margin-left: 12px;">Envato Tuts+</h1>
+            <h1 style="font-size: 20px;margin-left: 12px;">All Products</h1>
+            <h1 style="font-size: 20px;margin-left: 12px;">Sitemap</h1></div>
+            <div>
+            <h1 style="font-size: 30px; margin-left: 1110px;">Certified</h1>
+            <div><img src="html/circled b.png" style="font-size: 80px;margin-left: 1100px;height: 100px; width: 100px;"></div>
+            </div>
+
+
+
+    
+
+</body>
+</html>
